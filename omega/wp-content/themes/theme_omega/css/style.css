@@ -202,7 +202,7 @@ body {
   align-items: center;
   padding: 5px;
   transition: all 0.5s ease;
-  margin: 5px 8px; }
+  margin: 10px 8px; }
   .burger .strip div {
     height: 2px;
     border-radius: 2px;
@@ -267,6 +267,21 @@ body {
           text-decoration: none; }
           .header-desktop .nav-menu ul li a:hover {
             text-decoration: underline; }
+
+.not-found-posts {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 108.95%;
+  text-align: center;
+  color: #000;
+  position: relative;
+  z-index: 3;
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 80px 15px; }
 
 .section__banner {
   position: relative;

@@ -4,11 +4,11 @@
     <img src="<?php echo get_template_directory_uri() . '/images/banner-image-home.jpg'; ?>" class="object-fit object-fit-cover" alt="">
     <div class="inner">
         <div class="content">
-            <h1 class="title"><span>Workforce Survey</span></h1>
+            <h1 class="title"><span><?php esc_html_e('Workforce Survey' , 'theme_omega') ;?></span></h1>
             <div class="text">
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <p><?php esc_html_e('At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi' , 'theme_omega') ;?></p>
             </div>
-            <p><a href="#" class="btn">Start Now</a></p>
+            <p><a href="#" class="btn"><?php esc_html_e('Start Now' , 'theme_omega') ;?></a></p>
         </div>
     </div>
 </section>
@@ -21,7 +21,7 @@ if ( have_posts() ) {
 
     get_template_part('archive');
 } else {
-    echo 'No posts found';
+    echo '<div class="not-found-posts">Not posts found</div>';
 }
 ?>
 
